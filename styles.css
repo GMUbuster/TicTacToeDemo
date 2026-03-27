@@ -1,0 +1,18 @@
+.container {
+  display: grid;
+  /* Creates 3 columns, each taking up 1 fractional unit of available space */
+  grid-template-columns: repeat(3, 1fr); 
+  /* Creates 3 rows, each taking up 1 fractional unit of available space */
+  grid-template-rows: repeat(3, 1fr); 
+  gap: 10px; /* Adds spacing between grid items */
+  width: 300px; /* Optional: set a width for the whole grid */
+}
+
+.item {
+  background-color: #f1f1f1; /* Optional: styling for visibility */
+  border: 1px solid black; /* Optional: styling for visibility */
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 90px;
+}
